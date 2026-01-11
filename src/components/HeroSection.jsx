@@ -1,5 +1,6 @@
 import { useState } from "react";
 import heroImage from '../assets/hero.png';
+import { HomeIcon, X, Menu, ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,10 +19,139 @@ const HeroSection = () => {
         <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{backgroundImage: `url(${heroImage})`}}>
+                <div className="absolute insert-0">
+                    <div className="relative z-10 h-full flex flex-col">
+                        <nav className="w-full py-4">
+                            <div className="flex items-center justify-between max-w-7x1 mx-auto px-6">
+                                <div className="flex items-center space-x-3">
+                                    <div className="p-2 bg-blue-500 rounded-lg">
+                                        <HomeIcon className="w-6 h-6 text-white"/>
+                                    </div>
+                                    <span className="text-2xl font-bold text-white">
+                                        Education.
+                                    </span>
+                                </div>
+                                <div className="hidden md:flex items-center space-x-8">
+                                    {navItems.map((item, index) => (
+                                        <a
+                                        key={item.name}
+                                        href={item.link}
+                                        className="text-white/80 hover:text-white transition-colors text-lg"
+                                        >
+                                            {item.name}
+                                        </a>
+                                    ))}
+                                    <button className="px-6 py-2 bg-white text-black font-semibold rounded-xl hover:bg-gray-200 transition-colors">
+                                        Get Started
+                                    </button>
+                                </div>
+                                <button
+                                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                                className="md:hidden text-white"
+                                >
+                                    {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
+                                </button>
+                            </div>
+                            { isMenuOpen && (
+                                <div className="md:hidden mt-4 py-4 bg-black/90 backdrop-blur-md rounded-lg">
+                                    {navItems.map((item) => (
+                                        <a
+                                        key={item.name}
+                                        href={item.link}
+                                        className="block py-3 px-4 text-white/80 hover:text-white hover:bg-white/10"
+                                        onClick={() => setIsMenuOpen(false)}
+                                        >
+                                            {item.name}
+                                        </a>
+                                    ))}
+                                    <button
+                                    className="mt-4 mx-4 px-4 py-3 bg-white text-black font-semibold rounded-lg"
+                                    >
+                                        Get Started
+                                    </button>
+                                </div>
+                            )}
+                        </nav>
+                        <section id="home" className="flex-1 flex items-center">
+                            <div className="max-w-7xl mx-auto px-4 sm-px-6 w-full py-8">
+                                <div className="text-center">
+                                    <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-4 md:m-6 leading-tight">
+                                        Build your Digital
+                                        <span 
+                                        className="block text-transparent bg-clip-text bg-blue-300 mt-2"
+                                        >
+                                            Future With Us
+                                        </span>
+                                    </h1>
+                                    <p
+                                    className="text-lg sm:text-xl text-gray-300 mb-6 md:mb-10 max-w-2xl mx-auto px-2"
+                                    >
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Quos itaque animi ad quia hic dolore quisquam asperiores
+                                        aliquam aut rerum dolorum incidunt explicabo recusandae.
+                                    </p>
+                                    <div
+                                    className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-6 md:m-10 px-2"
+                                    >
+                                        <button
+                                        className="px-6 sm:px-8 py-3 sm:py-4 bg-blue-600 text-white font-semibold
+                                        rounded-xl hover:opacity-90 transition-opacity flex items-center justify-center gap-2 group"
+                                        >
+                                            Start Free Trial
+                                            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform"/>
+                                        </button>
+                                        <button className="px-6 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white font-semibold rounded-xl hover:bg-white/20 transition-colors">
+                                            Book a Demo
+                                        </button>
+                                    </div>
+                                    <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 w-full px-2 mx-auto mt-6 md:mt-10">
+                                        
+                                        <div className="text-center p-3 sm:p-4 bg-white/5 backdrop-blur-sm rounded-xl">
+                                            <p className="text-xl sm:text-2xl font-bold text-white mb-1">
+                                                10k+
+                                            </p>
+                                            <span className="text-xs sm:text-sm text-gray-300">
+                                                Users
+                                            </span>
+                                        </div>
+
+                                        <div className="text-center p-3 sm:p-4 bg-white/5 backdrop-blur-sm rounded-xl">
+                                            <p className="text-xl sm:text-2xl font-bold text-white mb-1">
+                                                99.9%
+                                            </p>
+                                            <span className="text-xs sm:text-sm text-gray-300">
+                                                Uptime
+                                            </span>
+                                        </div>
+
+                                        <div className="text-center p-3 sm:p-4 bg-white/5 backdrop-blur-sm rounded-xl">
+                                            <p className="text-xl sm:text-2xl font-bold text-white mb-1">
+                                                24/7
+                                            </p>
+                                            <span className="text-xs sm:text-sm text-gray-300">
+                                                Support
+                                            </span>
+                                        </div>
+
+                                        <div className="text-center p-3 sm:p-4 bg-white/5 backdrop-blur-sm rounded-xl">
+                                            <p className="text-xl sm:text-2xl font-bold text-white mb-1">
+                                                50+
+                                            </p>
+                                            <span className="text-xs sm:text-sm text-gray-300">
+                                                Countries
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
         </div>
 
     </div>
-  )
-}
+  );
+};
 
 export default HeroSection
