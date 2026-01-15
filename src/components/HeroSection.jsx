@@ -19,17 +19,17 @@ const HeroSection = () => {
         <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{backgroundImage: `url(${heroImage})`}}>
-                <div className="absolute insert-0">
+                <div className="absolute inset-0">
                     <div className="relative z-10 h-full flex flex-col">
                         <nav className="w-full py-4">
-                            <div className="flex items-center justify-between max-w-7x1 mx-auto px-6">
+                            <div className="flex items-center justify-between max-w-7xl mx-auto px-6">
                                 <div className="flex items-center space-x-3"
                                 data-aos='fade-down'>
                                     <div className="p-2 bg-blue-500 rounded-lg">
                                         <HomeIcon className="w-6 h-6 text-white"/>
                                     </div>
                                     <span className="text-2xl font-bold text-white">
-                                        Education.
+                                        Learnify.
                                     </span>
                                 </div>
                                 <div className="hidden md:flex items-center space-x-8">
