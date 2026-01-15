@@ -41,3 +41,13 @@
         <User />
     -> Styling icons:
         <Menu className="w-5 h-5 text-gray-700" />
+
+**Step 11** - Add Home Icon and text + navigation icons and CTA inside flex
+
+**Step 12** - Use map function to create nav bar (used key + href)
+
+**Step 13** - Add main heading + small about part to the center of the page + 2 buttons (Start free trial and book demo)
+
+**Step 14** - Add Some boxes to show stats for showing quality (10k+ users, 99.9% up time, 24/7 support, 50+ countries)
+
+**Step 15** - Add AOS library, and use AOS animation with use effect.

@@ -81,7 +81,7 @@ const HeroSection = () => {
                             )}
                         </nav>
                         <section id="home" className="flex-1 flex items-center">
-                            <div className="max-w-7xl mx-auto px-4 sm-px-6 w-full py-8">
+                            <div className="max-w-7xl mx-auto px-4 sm:px-6 w-full py-8">
                                 <div className="text-center">
                                     <h1 
                                     className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-4 md:m-6 leading-tight"
@@ -91,7 +91,7 @@ const HeroSection = () => {
                                         <span 
                                         className="block text-transparent bg-clip-text bg-blue-300 mt-2"
                                         data-aos='fade-up'
-                                        data-aos-delay='300'
+                                        data-aos-delay='200'
                                         >
                                             Future With Us
                                         </span>
@@ -99,7 +99,7 @@ const HeroSection = () => {
                                     <p
                                     className="text-lg sm:text-xl text-gray-300 mb-6 md:mb-10 max-w-2xl mx-auto px-2"
                                     data-aos='fade-up'
-                                    data-aos-delay='200'
+                                    data-aos-delay='300'
                                     >
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                         Quos itaque animi ad quia hic dolore quisquam asperiores
