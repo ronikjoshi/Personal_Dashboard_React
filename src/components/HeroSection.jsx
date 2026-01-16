@@ -84,7 +84,7 @@ const HeroSection = () => {
                             <div className="max-w-7xl mx-auto px-4 sm:px-6 w-full py-8">
                                 <div className="text-center">
                                     <h1 
-                                    className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-4 md:m-6 leading-tight"
+                                    className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight"
                                     data-aos='fade-up'
                                     >
                                         Build your Digital
@@ -97,7 +97,7 @@ const HeroSection = () => {
                                         </span>
                                     </h1>
                                     <p
-                                    className="text-lg sm:text-xl text-gray-300 mb-6 md:mb-10 max-w-2xl mx-auto px-2"
+                                    className="text-lg sm:text-xl text-gray-300 mb-4 md:mb-6 max-w-2xl mx-auto px-2"
                                     data-aos='fade-up'
                                     data-aos-delay='300'
                                     >
@@ -106,7 +106,7 @@ const HeroSection = () => {
                                         aliquam aut rerum dolorum incidunt explicabo recusandae.
                                     </p>
                                     <div
-                                    className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-6 md:m-10 px-2"
+                                    className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-4 md:m-6 px-2"
                                     data-aos='fade-up'
                                     data-aos-delay='400'
                                     >
