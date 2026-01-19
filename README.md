@@ -51,3 +51,7 @@
 **Step 14** - Add Some boxes to show stats for showing quality (10k+ users, 99.9% up time, 24/7 support, 50+ countries)
 
 **Step 15** - Add AOS library, and use AOS animation with use effect.
+
+**Step 16** - Created a loading spinner file inside components
+
+**Step 17** - Added loading spinner code and used useState (inside App.js) to manage the state of the loading spinner.  
