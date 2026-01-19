@@ -35,13 +35,37 @@ const Education = () => {
                         <img 
                         src={educationImage} 
                         alt="Education" 
+                        className='w-64 h-64 sm:w-80 sm:h-80 lg:w-[410px] lg:h-[410px] object-cover rounded-full border-4 border-white shadow-xl relative z-10'
                         />
+
+                        <div className='absolute -top-2 -right-2 sm:-top-4 sm:-right-4 bg-white p-2 sm:p-4 rounded-xl sm:rounded-2xl shadow-lg z-20'>
+                            <div className='text-center'>
+                                <div className='text-lg sm:text-xl lg:text-2xl font-bold text-blue-600'>
+                                    100+
+                                </div>
+                                <div className='text-xs sm:text-sm text-gray-600'>
+                                    Courses
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='absolute -bottom-2 -left-2 sm:-bottom-4 sm:-left-4 bg-white p-2 sm:p-4 rounded-xl sm:rounded-2xl shadow-lg z-20'>
+                            <div className='text-center'>
+                                <div className='text-lg sm:text-xl lg:text-2xl font-bold text-blue-600'>
+                                    5K+
+                                </div>
+                                <div className='text-xs sm:text-sm text-gray-600'>
+                                    Students
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-  )
-}
+  );
+};
 
 export default Education
