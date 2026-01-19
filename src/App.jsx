@@ -3,6 +3,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import HeroSection from "./components/HeroSection"
 import LoadingSpinner from "./components/LoadingSpinner"
+import Education from "./components/Education"
 
 const App = () => {
 
@@ -23,6 +24,7 @@ const App = () => {
   return (
     <div className="min-h-screen overflow-hidden">
       <HeroSection />
+      <Education />
     </div>
   )
 }

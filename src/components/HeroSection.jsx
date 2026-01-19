@@ -15,11 +15,10 @@ const HeroSection = () => {
     ];
 
   return (
-    <div className="relative h-screen overflow-hidden">
+    <div className="relative min-h-screen overflow-hidden px-4">
         <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{backgroundImage: `url(${heroImage})`}}>
-                <div className="absolute inset-0">
+            style={{backgroundImage: `url(${heroImage})`}} />
                     <div className="relative z-10 h-full flex flex-col">
                         <nav className="w-full py-4">
                             <div className="flex items-center justify-between max-w-7xl mx-auto px-6">
@@ -169,9 +168,6 @@ const HeroSection = () => {
                         </section>
                     </div>
                 </div>
-        </div>
-
-    </div>
   );
 };
 
