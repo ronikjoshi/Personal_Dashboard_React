@@ -4,6 +4,7 @@ import 'aos/dist/aos.css'
 import HeroSection from "./components/HeroSection"
 import LoadingSpinner from "./components/LoadingSpinner"
 import Education from "./components/Education"
+import About from "./components/About"
 
 const App = () => {
 

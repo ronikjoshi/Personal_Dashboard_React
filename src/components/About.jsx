@@ -21,10 +21,10 @@ const About = () => {
 
                 <div className='text-center lg:text-left px-2 sm:px-4'
                 data-aos='fade-left'>
-                    <p className='text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0A1A44] leading-tight mb-4 lg:mb-6'>
+                    <p className='text-gray-500 mb-3 text-sm sm:text-base'>
                         About Us
                     </p>
-                    <h2>
+                    <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0A1A44] leading-tight mb-4 lg:mb-6'>
                         Our About <br className='hidden sm:block'/> Profile
                     </h2>
                     
