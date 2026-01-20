@@ -25,6 +25,7 @@ const App = () => {
     <div className="min-h-screen overflow-hidden">
       <HeroSection />
       <Education />
+      <About />
     </div>
   )
 }
