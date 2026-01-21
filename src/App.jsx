@@ -5,6 +5,7 @@ import HeroSection from "./components/HeroSection"
 import LoadingSpinner from "./components/LoadingSpinner"
 import Education from "./components/Education"
 import About from "./components/About"
+import PricingSection from "./components/PricingSection"
 
 const App = () => {
 
@@ -27,6 +28,7 @@ const App = () => {
       <HeroSection />
       <Education />
       <About />
+      <PricingSection />
     </div>
   )
 }
