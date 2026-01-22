@@ -6,6 +6,7 @@ import LoadingSpinner from "./components/LoadingSpinner"
 import Education from "./components/Education"
 import About from "./components/About"
 import PricingSection from "./components/PricingSection"
+import Services from "./components/Services"
 
 const App = () => {
 
@@ -29,6 +30,7 @@ const App = () => {
       <Education />
       <About />
       <PricingSection />
+      <Services />
     </div>
   )
 }
