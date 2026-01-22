@@ -26,16 +26,16 @@ const Services = () => {
                 </div>
 
                 <div data-aos='fade-left'>
-                    <h3 className=''>
+                    <h3 className='text-lg sm:text-xl font-semibold text-gray-900 mb-3 sm:mb-4'>
                         Special Service
                     </h3>
-                    <p>
+                    <p className='text-gray-500 leading-relaxed text-sm sm:text-base'>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptates ducimus atque iure necessitatibus beatae ea illum labore ullam. Distinctio nostrum eius ab ipsum modi magnam vero beatae maxime dolor.
                     </p>
                 </div>
             </div>
     </section>
-  )
-}
+  );
+};
 
 export default Services
