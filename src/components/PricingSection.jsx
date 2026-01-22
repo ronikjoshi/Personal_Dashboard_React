@@ -12,7 +12,7 @@ const PricingSection = () => {
             className="relative flex justify-center lg:justify-end"
             data-aos='fade-right'
             >
-                <div className="absolute left-4 sm:left-7 -top-4 sm:-top-6 w-3/4 h-full max-w-xs sm:max-w-sm bg-blue-600"
+                <div className="absolute -left-3 sm:left-7 -top-4 sm:-top-6 w-64 sm:w-3/4 h-full max-w-xs sm:max-w-sm bg-blue-600"
                 />
                     <img 
                     src={pricing} 
