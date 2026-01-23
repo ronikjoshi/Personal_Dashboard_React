@@ -8,6 +8,7 @@ import About from "./components/About"
 import PricingSection from "./components/PricingSection"
 import Services from "./components/Services"
 import WhyUs from "./components/WhyUs"
+import Footer from "./components/Footer"
 
 const App = () => {
 
@@ -28,11 +29,12 @@ const App = () => {
   return (
     <div className="min-h-screen overflow-hidden">
       <HeroSection />
-      <Education />
       <About />
+      <Education />
       <PricingSection />
       <Services />
       <WhyUs />
+      <Footer />
     </div>
   )
 }

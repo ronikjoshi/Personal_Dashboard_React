@@ -20,7 +20,7 @@ const Services = () => {
                     <p className='text-gray-400 mb-3 text-sm sm:text-base'>
                         Our Service
                     </p>
-                    <h2 className='text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight'>
+                    <h2 className='text-3xl sm:text-4xl lg:text-5xl font-extrabold text-blue-900 leading-tight'>
                         Service Of <br className='hidden sm:block'/> School
                     </h2>
                 </div>

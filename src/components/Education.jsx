@@ -12,7 +12,7 @@ const Education = () => {
                     <p className="text-gray-500 mb-4 text-sm sm:text-base">
                         University School Presentation
                     </p>
-                    <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0A1A44] leading-tight mb-4 lg:mb-6">
+                    <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-900 leading-tight mb-4 lg:mb-6">
                         Welcome to <br  className="hidden sm:block"/> Education
                     </h1>
                     <p className="text-gray-600 leading-relaxed mb-6 lg:mb-8 text-sm sm:text-base">

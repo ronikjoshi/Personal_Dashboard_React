@@ -24,7 +24,7 @@ const About = () => {
                     <p className='text-gray-500 mb-3 text-sm sm:text-base'>
                         About Us
                     </p>
-                    <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0A1A44] leading-tight mb-4 lg:mb-6'>
+                    <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-900 leading-tight mb-4 lg:mb-6'>
                         Our About <br className='hidden sm:block'/> Profile
                     </h2>
                     
