@@ -9,6 +9,7 @@ import PricingSection from "./components/PricingSection"
 import Services from "./components/Services"
 import WhyUs from "./components/WhyUs"
 import Footer from "./components/Footer"
+import ScrollToTopButton from "./components/ScrollToTopButton"
 
 const App = () => {
 
@@ -35,6 +36,7 @@ const App = () => {
       <Services />
       <WhyUs />
       <Footer />
+      <ScrollToTopButton />
     </div>
   )
 }
