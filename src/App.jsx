@@ -7,6 +7,7 @@ import Education from "./components/Education"
 import About from "./components/About"
 import PricingSection from "./components/PricingSection"
 import Services from "./components/Services"
+import WhyUs from "./components/WhyUs"
 
 const App = () => {
 
@@ -31,6 +32,7 @@ const App = () => {
       <About />
       <PricingSection />
       <Services />
+      <WhyUs />
     </div>
   )
 }

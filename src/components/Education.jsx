@@ -35,7 +35,7 @@ const Education = () => {
                         <img 
                         src={educationImage} 
                         alt="Education" 
-                        className='w-64 h-64 sm:w-80 sm:h-80 lg:w-[410px] lg:h-[410px] object-cover rounded-full border-4 border-white shadow-xl relative z-10'
+                        className='w-64 h-64 sm:w-80 sm:h-80 lg:w-102.5 lg:h-102.5 object-cover rounded-full border-4 border-white shadow-xl relative z-10'
                         />
 
                         <div className='absolute -top-2 -right-2 sm:-top-4 sm:-right-4 bg-white p-2 sm:p-4 rounded-xl sm:rounded-2xl shadow-lg z-20'>
