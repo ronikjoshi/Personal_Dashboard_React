@@ -1,4 +1,4 @@
-**Step 1** - Create a React app using Vite (npm create vite@latest)
+**Step 1** - Create a React app using Vite (npm create vite@latest).
 
 **Step 2** - Installing Tailwind CSS as a Vite plugin
     -> Install tailwindcss and @tailwindcss/vite via npm.
@@ -55,3 +55,5 @@
 **Step 16** - Created a loading spinner file inside components
 
 **Step 17** - Added loading spinner code and used useState (inside App.js) to manage the state of the loading spinner.  
+
+**Step 18** - Then I making components related to the sections like Home, About etc.
